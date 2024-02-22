@@ -1,0 +1,291 @@
+* {
+    margin: 0px 0px;
+}
+
+nav {
+    display: flex;
+    background-color: transparent;
+    height: 50px;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+
+
+}
+
+a {
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: large;
+    font-weight: bold;
+    /* transition: all .3s ease-in-out; */
+}
+
+.fee::before {
+    content: ' ';
+    display: flex;
+    /* flex-wrap: wrap; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 570px;
+    opacity: 0.6;
+    background-image: url('flat-lay-arrangement-with-salad-box-sauce.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    z-index: -1;
+
+}
+
+#Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 500px;
+    margin-top: 20px;
+}
+
+#hii {
+    padding-bottom: 70px;
+    font-size: 30px;
+}
+
+#Home p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#ee {
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    margin-top: 60px;
+    border-radius: 20px;
+
+
+}
+
+#ee:hover {
+    color: black;
+    font-weight: bold;
+    background-color: rgb(219, 186, 20);
+}
+
+a:hover {
+    transform: scale(1.2);
+    background-color: rgb(219, 186, 20);
+    border: 2px solid white;
+    border-radius: 15px;
+
+}
+
+.services {
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.major {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.delivery {
+    width: 400px;
+    height: 250px;
+    background-color: rgba(190, 188, 188, 0.5);
+    border: 2px solid rgb(175, 0, 0);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+/* .delivery p
+{
+   margin: 20px;
+} */
+
+/* .delivery h3{
+    text-align: center;
+} */
+.catering {
+    width: 400px;
+    height: 250px;
+    background-color: rgba(190, 188, 188, 0.5);
+    border: 2px solid rgb(175, 0, 0);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+/* .catering p
+{
+    margin: 20px;
+} */
+.bulk {
+    width: 400px;
+    height: 250px;
+    background-color: rgba(190, 188, 188, 0.5);
+    border: 2px solid rgb(175, 0, 0);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+/* .bulk p
+{  margin-top: 20px;
+    margin-right: 20px;
+} */
+.clay {
+    background-color: rgba(250, 235, 215, 0.7);
+}
+
+.bulk h3 {
+    text-align: center;
+}
+
+.delivery h3 {
+    text-align: center;
+}
+
+.catering h3 {
+    text-align: center;
+}
+
+.delivery img {
+    height: 100px;
+    /* margin-left: 40px; */
+    display: block;
+    margin: auto;
+}
+
+.catering img {
+    height: 100px;
+    /* margin-left: 40px; */
+    display: block;
+    margin: auto;
+}
+
+.bulk img {
+    height: 100px;
+    /* margin-left: 40px; */
+    display: block;
+    margin: auto;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.clei {
+    background-color: rgba(155, 147, 147, 0.2);
+    height: 350px;
+    width: 100%;
+
+
+}
+
+.clei h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 2em;
+}
+
+#apple {
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+    margin: 40px;
+}
+
+#microsoft {
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+    margin: 40px;
+}
+
+#hp {
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+    margin: 40px;
+}
+
+#skype {
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+    margin: 40px;
+}
+
+.data h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    /* margin: 100px; */
+    /* width: 100%; */
+}
+
+#details input {
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+#details input::placeholder {
+    color: rgb(53, 53, 53);
+
+}
+
+#details textarea {
+    width: 503px;
+    height: 169px;
+    margin-top: 10px;
+}
+
+.data {
+    position: relative;
+}
+
+.data::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: -1;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20220217/pngtree-businesswoman-using-contact-icon-interface-photo-image_29649620.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+

@@ -1,0 +1,101 @@
+a {
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 2px;
+    font-size: small;
+    
+}
+nav
+{
+    padding-left: 10px;
+}
+
+#hii {
+    padding-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#Home p {
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.fee {
+
+    background-size: contain;
+
+}
+/* 
+html,
+body {
+    overflow-x: hidden;
+} */
+
+.delivery {
+    width: 250px;
+    height: 250px;
+}
+.catering
+{
+    width: 250px;
+    height: 250px;
+}
+.bulk
+{
+    width: 250px;
+    height: 250px;
+}
+#apple {
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+    margin: 10px;
+}
+#microsoft
+{
+    height: 60px;
+    width: 80px;
+    padding: 5px;
+    margin: 10px;
+
+}
+#hp
+{
+    height: 80px;
+    width: 80px;
+    padding: 5px;
+    margin: 10px;
+}
+#skype
+{
+    height: 60px;
+    width: 80px;
+    padding: 5px;
+    margin: 10px;
+}
+.clients
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.clei
+{
+    height: 460px;
+}
+#details input
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    padding-right: 10px;
+}
+#details textarea {
+    width: 261px;
+    height: 100px;
+    margin-top: 10px;
+}
